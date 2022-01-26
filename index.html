@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mi sitio Personal</title>
+</head>
+
+<body>
+  <!-- También se puede utilizar el objeto tabla para dar formato y ordenamiento a nuestro sitio web utilizando
+HTML puro sin necesidad de usar el CSS -->
+  <table cellspacing="20">
+    <tr>
+      <td><img src="images/richardbravo.png" alt="Perfil de Richard Bravo"></td>
+      <td>
+        <h1>Richard Bravo</h1>
+        <p><em>Analista de Configuraciones Regional - <strong><a href="https://www.claro.com.ni/personas/">Claro CENAM</a></strong></em></p>
+        <p>Este sitio web les mostrará una breve hoja de vida en la cual se mostrará mis conocimientos y aptitudes,
+          así como también listar la experiencia laboral adquirida a lo largo de estos años.</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Estudios Realizados</h3>
+  <ul>
+    <li>Secundaria Completa - <a href="https://www.pmaria-managua.org/">Colegio Pureza de María</a> (Bachiller en ciencias y letras)</li>
+    <li>Graduado Universitario - <a href="https://www.uni.edu.ni/#/">Universidad Nacional de Ingeniería</a> (Ingeniero en Ciencias de la computación)</li>
+  </ul>
+  <hr>
+  <h3>Experiencia Laboral</h3>
+  <table>
+    <!-- Encabezado de la tabla el encabezado utiliza la etiqueta <th> para indicar el contenido del encabezado.
+        Por cada encabezado de columna se escribe una nueva etiqueta <th>-->
+    <!-- Encabezado de la tabla el encabezado utiliza la etiqueta <th> para indicar el contenido del encabezado.
+            Por cada encabezado de columna se escribe una nueva etiqueta <th>-->
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Lugar de Trabajo</th>
+      </tr>
+    </thead>
+    <!-- Cuerpo de la tabla -->
+    <tbody>
+      <tr>
+        <td>2014 - 2022</td>
+        <td>Empresa Nicaraguense de telecomunicaciones</td>
+      </tr>
+      <tr>
+        <td>2013 - 2014</td>
+        <td>TCO Consultores</td>
+      </tr>
+    </tbody>
+    <!-- Pie de la tabla -->
+    <tfoot>
+      <!-- Por el momento nuestra tabla no cuenta con un pie de estructura -->
+    </tfoot>
+
+    <!-- La razón por la que separamos los elementos de la tabla utilizando las etiquetas <thead>, <tbody> y <tfoot> es
+  porque al momento de querer dar un formato específico a nuestra tabla lo podemos hacer desde CSS o JavaScript haciendo
+  referencia directamente al elemento de la tabla al que queremos dar formato-->
+
+  </table> <!-- Fin de la tabla de experiencia laboral -->
+  <hr>
+
+  <!-- Inicio de la Tabla de Habilidades -->
+  <h3>Habilidades</h3>
+
+  <table>
+    <tr>
+      <td>SQL</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>.NET</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Office 365</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+  </table>
+
+  <hr>
+  <a href="pasatiempos.html">Mis Pasatiempos</a>
+  <br>
+  <a href="contacto.html">Cómo Contactarme</a>
+</body>
+
+</html>
